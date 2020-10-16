@@ -1,0 +1,203 @@
+body{
+    background: rgba(0, 0, 0, 0.061);
+}
+
+.logo img{
+    left: 0;
+    position: absolute;
+    width: 250px;
+    top: 0;
+}
+
+.nav{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 8px 8px 0 8px ;
+    width: 100%;
+}
+
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+.dentroTitle{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.dentroTitle img{
+    width: 350px;
+}
+
+.cChat{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.chat{
+    background-color: rgb(93, 122, 250);
+    text-align: center;
+    width: 450px;
+}
+
+.chat h3{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width: 410px) {
+    .logo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .logo img{
+        position: relative;
+        width: 180px;
+}
+
+
+    .dentroTitle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+        height: 40px;
+    }
+
+    .dentroTitle img{
+        width: 80%;
+    }
+    
+   .cChat{
+       display: flex;
+       flex-wrap: nowrap;
+       justify-content: center;
+       align-content: center;
+       /* border: 1px rgba(0, 0, 0, 0.287) solid; */
+       margin : 8px 8px 0 8px;
+       background-color: rgb(93, 122, 250);
+   }
+
+   .chat h3{
+       font-size: 15px;
+       position: relative;
+       top: 3px;
+   }
+
+   .cajaChat{
+       display: flex;
+       background-color: rgb(93, 122, 250);
+       /* flex-direction: column-reverse;
+       border: 1px rgba(0, 0, 0, 0.287) solid;
+       height: 250px;
+       border-top: none;
+       margin: 0 8px 8px 8px */;
+   }
+
+   .cajaChat input{
+       margin: 5px;
+       font-weight: 500;
+       border: none;
+       background: rgba(224, 224, 231, 0.959);
+       width: 100%;
+       
+   }
+   .cajaChat input:focus{
+       color: rgb(38, 41, 39);
+       font-weight: 500;
+    outline-color: rgb(74, 112, 216);
+    order: 0;
+   }
+
+   .mensajes{
+       display: flex;
+       flex-direction: column-reverse;
+       order: 1;
+       /* background: chocolate; */
+       height: 100%;
+       margin: 0 12px 8px 12px;
+       overflow: hidden;
+
+
+   }
+
+   .cajaEnviado{
+       display: flex;
+       flex-direction: column-reverse;
+       /* background: rgb(83, 63, 49); */
+    /* background: chartreuse; */
+
+}
+
+.imprimirTexto{
+    margin-bottom: 1px;
+
+}
+
+.imprimirTexto p{
+    height: 25px;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.089);
+}
+
+   .eso {
+       flex-grow: 4;
+    }
+    
+    .boton{
+        flex-grow: 1;
+        margin: 5px 5px 0 10px;
+    }
+    
+    .ejemplo{
+        flex-grow: 1;
+        background-color: turquoise;
+    }
+
+   .boton button{
+       width: 100%;
+       color: white;
+       border: none;
+       background-color: rgb(4, 25, 95);
+       
+   }
+
+   .cajaCajaUno{
+       display: flex;
+       flex-wrap: nowrap;
+       background-color: rgb(140, 175, 240);
+       flex-direction: column-reverse;
+       margin: 0 8px 8px 8px;
+       /* border: 1px rgba(0, 0, 0, 0.287) solid; */
+       height: 250px;
+       border-top: none;
+   }
+   .gordo{
+       color: brown;
+   }
+
+
+   
+
+   
+}
+
+
