@@ -1,5 +1,5 @@
 body{
-    background: rgba(0, 0, 0, 0.061);
+    background: rgba(224, 224, 224, 0.986);
 }
 
 .logo img{
@@ -194,10 +194,29 @@ body{
        color: brown;
    }
 
+   .cajaOcultar {
+       position: relative;
+       overflow: hidden;
+       /* background-color: blue; */
+       overflow: hidden;
+   }
 
-   
+   .ocultarUp{
+       position: absolute;
+       width: 100%;
+       height: 58px;
+       top: 0;
+       background: rgba(224, 224, 224, 0.986)
+   }
 
-   
+   .ocultarDown{
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    bottom: 0;
+    background: rgba(224, 224, 224, 0.986)
+   }
+
 }
 
 
