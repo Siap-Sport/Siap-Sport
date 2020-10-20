@@ -1,4 +1,5 @@
-let textSend = document.getElementById('imprimirTexto');
+
+// let textSend = document.getElementById('imprimirTexto');
 let numeroRandom = Math.floor(Math.random() * 100);
 class mensaje{
     constructor(mensaje){
@@ -25,3 +26,27 @@ enviarMensaje = (text) => {
 }
 
 
+ 
+
+/* module.exports = {
+}
+ */
+ 
+/* CHAT EN VIVO */
+//index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Coneccion */
+// let socket = io();
